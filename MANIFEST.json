@@ -1,0 +1,217 @@
+{
+  "files": [
+    {
+      "bytes": 1067,
+      "path": "LICENSE",
+      "sha256": "8374cc34466259a127b88bc1dc568718967744a4f060caaec6e3bb9ce6368862"
+    },
+    {
+      "bytes": 7003,
+      "path": "README.md",
+      "sha256": "b479f761559b17f2dcac448e9ff06eab299638713402e449bd7af258cf0a9e9f"
+    },
+    {
+      "bytes": 2925,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "310ba05369776bc434b30a9616c7283f058e32a6bcf29e24a6f58a7b12aed2f7"
+    },
+    {
+      "bytes": 467,
+      "path": "alire.toml",
+      "sha256": "31bbf395d19c4e66439411d3844959ace86ab1d5a5b9ab40a470c8c3a757d807"
+    },
+    {
+      "bytes": 4523,
+      "path": "docs/API.md",
+      "sha256": "35b6534c084809dcabcd394034ae57d769507d83b80f7d3297b1ef1b654d9c44"
+    },
+    {
+      "bytes": 8789,
+      "path": "docs/BENCHMARKS.md",
+      "sha256": "3cb925b536b8a78a7b0fd0619466a54bb12a265df1af0240dc6eb80e71a5a63b"
+    },
+    {
+      "bytes": 4250,
+      "path": "docs/FORMAT.md",
+      "sha256": "f4fdab01be3b3496b5a890e4319703a04fac0aca1de27dbbc826854b2378c044"
+    },
+    {
+      "bytes": 605,
+      "path": "indexed_records.gpr",
+      "sha256": "8242ea5e5e784f11bb024319b496c6fe8ae8581f577a43b6696c95d453d008ce"
+    },
+    {
+      "bytes": 18,
+      "path": "local-index/index.toml",
+      "sha256": "d2471c35804cb8d0373c88651125a687cc4fd535a936d204cd2d1dfb1f34482d"
+    },
+    {
+      "bytes": 326,
+      "path": "local-index/li/libzstd/libzstd-external.toml",
+      "sha256": "1900e8ad3883d7c47d0637d802bb4ab5b4a0b5b00a91bf9ab4ce8ea39ba64246"
+    },
+    {
+      "bytes": 393,
+      "path": "records_bench.gpr",
+      "sha256": "d7fe535bcb6f3b61c5071af7e9cbdbef31f35fc662920d9f2b6d7d0d00b42aa3"
+    },
+    {
+      "bytes": 428,
+      "path": "records_bench_memory.gpr",
+      "sha256": "3c17ae33890ddf819fc4a4344d73ddce69f67896a167db88faa468db1eef71da"
+    },
+    {
+      "bytes": 383,
+      "path": "records_cli.gpr",
+      "sha256": "ba1fa4f08ea84e3da699acb925c665b555707cbcaedb155ef7c5508c8a388c97"
+    },
+    {
+      "bytes": 4861,
+      "path": "scripts/benchmark.py",
+      "sha256": "4076742285daabee522429d9c5f92f5ff8b96e43d26c00d53f97db2b104516ad"
+    },
+    {
+      "bytes": 15092,
+      "path": "scripts/memory.py",
+      "sha256": "5faffdbcc3008fc95368722753a7ca3c99832bd09600c89457f87247f2613ef7"
+    },
+    {
+      "bytes": 6611,
+      "path": "scripts/test.py",
+      "sha256": "aff3c5a8f9a4c4e0fc9e9f892eb54a2e4c2783fbc0f7efd9ef9c67822971ac9b"
+    },
+    {
+      "bytes": 16170,
+      "path": "src/indexed_records.adb",
+      "sha256": "63c1e0abf3a4ca58fcbf8b45d27e0af7fcf6967f23f4ffb6073ab9a69a1e8fcb"
+    },
+    {
+      "bytes": 2411,
+      "path": "src/indexed_records.ads",
+      "sha256": "f816d14b3850e43522ac7257f620f09c4ae55db9bb6fb58a6e949c3f929809ce"
+    },
+    {
+      "bytes": 14308,
+      "path": "src/records_bench.adb",
+      "sha256": "d94638e997d7dba91d86a6a1600db1eb7128eff5a76a985de6c1114f8282f67b"
+    },
+    {
+      "bytes": 19098,
+      "path": "src/records_bench_memory.adb",
+      "sha256": "606d8d24a3d1d1d418eec97aaac13e27a742708bf711595d134a3031dd49adb0"
+    },
+    {
+      "bytes": 7843,
+      "path": "src/records_cli.adb",
+      "sha256": "edcdd5a7965115471cd2626f8ea799a672ea58be9e87985a08cfd12ed2ac276d"
+    },
+    {
+      "bytes": 10488,
+      "path": "src/zstd_codec.adb",
+      "sha256": "17e840eeba1d528ef3cd0f51d4291890e98372dc75cbb54d9ab35b4c7f1742c5"
+    },
+    {
+      "bytes": 971,
+      "path": "src/zstd_codec.ads",
+      "sha256": "d3fc0bff68a7a85e56dd0ebc1b3896154526d8377639f2dc89c07378b3f18e05"
+    },
+    {
+      "bytes": 18280,
+      "path": "tests/baseline_memory_worker.py",
+      "sha256": "806104a09abc8a60dd61a5ce4fe3898090686dd8c462d76be5604ee4736fd926"
+    },
+    {
+      "bytes": 15543,
+      "path": "tests/baseline_worker.py",
+      "sha256": "79efcf955056c4bc8dfa6c9fb8246d6c91298686876187460e588236f97f631c"
+    },
+    {
+      "bytes": 6834,
+      "path": "tests/container_oracle.py",
+      "sha256": "26b9eb880ae800bece0553145cb4f411bccfdd436b7b510bc259f423f9fc0479"
+    },
+    {
+      "bytes": 5539,
+      "path": "tests/fixtures.py",
+      "sha256": "b4c0af30f27e749b2b85b4826607b817fbf9670394c8c21eb5a18eba7029ef0a"
+    },
+    {
+      "bytes": 11649,
+      "path": "tests/measure.py",
+      "sha256": "01c5916f9efebea41c6a7e9d5a4855d34892d778f28355ee97ef0cc806ca2f19"
+    },
+    {
+      "bytes": 17874,
+      "path": "tests/qualify.py",
+      "sha256": "76fadb72ab3d49865f33eb93bd9b67a51215ac1a8f4f874506ad17814543fabf"
+    },
+    {
+      "bytes": 4518,
+      "path": "tests/seekable_reference.c",
+      "sha256": "145d306b2041a9c6a5e7078f759f78e20319e42a15931530ccfefda539e037d3"
+    },
+    {
+      "bytes": 1549,
+      "path": "vendor/zstd/LICENSE",
+      "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8"
+    },
+    {
+      "bytes": 1835,
+      "path": "vendor/zstd/contrib/seekable_format/README.md",
+      "sha256": "31870cb1b5266ad963f705cca7fc06437818debb20ded6cc0b15b07090159d77"
+    },
+    {
+      "bytes": 12080,
+      "path": "vendor/zstd/contrib/seekable_format/zstd_seekable.h",
+      "sha256": "c28fd17b21371596cf3b73d0cf1d5f5ce1724489330f9f2492575a2ea1c21b1b"
+    },
+    {
+      "bytes": 4857,
+      "path": "vendor/zstd/contrib/seekable_format/zstd_seekable_compression_format.md",
+      "sha256": "faf6aece7f227061092956bb6e5152f90a09cf7ed5ac394d8288c37ac40de183"
+    },
+    {
+      "bytes": 21327,
+      "path": "vendor/zstd/contrib/seekable_format/zstdseek_decompress.c",
+      "sha256": "019da12b3a8856336cc9f853a7d3ac644102e32e424fd75a711fcc8e28165214"
+    },
+    {
+      "bytes": 16644,
+      "path": "vendor/zstd/lib/common/compiler.h",
+      "sha256": "d19829705d8039437ffba873df2b58d20d7b876d58da479121d2e515df55cbf7"
+    },
+    {
+      "bytes": 3925,
+      "path": "vendor/zstd/lib/common/debug.h",
+      "sha256": "8260cd5087b8309679c61b772b535688993c61a675a30481b8ae55b45740ba15"
+    },
+    {
+      "bytes": 12939,
+      "path": "vendor/zstd/lib/common/mem.h",
+      "sha256": "4dd5fe76fa30a020cd4b3af3134ae143920300a1fe54baac1a5da73297e66783"
+    },
+    {
+      "bytes": 4916,
+      "path": "vendor/zstd/lib/common/portability_macros.h",
+      "sha256": "75e2b43968b70decc6bd17876833be04894035594ddc1e745cd6b70be8265637"
+    },
+    {
+      "bytes": 607,
+      "path": "vendor/zstd/lib/common/xxhash.c",
+      "sha256": "8444d064922f434b67b708a987981aa21dfeece735b48c82d31f7027d0ccef03"
+    },
+    {
+      "bytes": 262488,
+      "path": "vendor/zstd/lib/common/xxhash.h",
+      "sha256": "8cb837b21a8fe9a6b9dbcd0961ab16e733bfcbfa9e003f3a496ce07ae80aa8ee"
+    },
+    {
+      "bytes": 3010,
+      "path": "vendor/zstd/lib/common/zstd_deps.h",
+      "sha256": "9c77ea7d0afa8d5c868a7839e178a446a82d88eb75fd56f2fd7d9d96c5ab7c11"
+    }
+  ],
+  "name": "indexed_records",
+  "schema_version": 1,
+  "version": "0.1.0"
+}

@@ -1,0 +1,17 @@
+project Indexed_Records is
+   for Languages use ("Ada");
+   for Source_Dirs use ("src");
+   for Source_Files use
+     ("indexed_records.ads", "indexed_records.adb", "zstd_codec.ads", "zstd_codec.adb");
+   for Object_Dir use "obj/library";
+   for Library_Dir use "lib";
+   for Library_Name use "indexed_records";
+   for Library_Kind use "static";
+   for Library_Interface use ("Indexed_Records");
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnat2022", "-O2", "-gnata");
+   end Compiler;
+   package Linker is
+      for Linker_Options use ("-lzstd");
+   end Linker;
+end Indexed_Records;
